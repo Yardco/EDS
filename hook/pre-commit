@@ -1,3 +1,3 @@
 #!/bin/sh
-$PWD/hook/up-eds-version.sh
-git add $PWD/eds.xml
+"$PWD/hook/up-eds-version.sh"
+git add -- "$PWD/eds.xml"
